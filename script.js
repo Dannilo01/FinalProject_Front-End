@@ -5,10 +5,13 @@ window.addEventListener("scroll", function () {
 });
 
 // Alerta no formulário de contato
-document.getElementById("contactForm").addEventListener("submit", function(event) {
+document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault();
+    
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-    alert(`Nome: ${name}\nEmail: ${email}\nMensagem: ${message}`);
+    const date = document.querySelector("input[type='date']").value;
+    const time = document.querySelector("input[type='time']").value;
+    
+    alert(`Você está agendado!\nNome: ${name}\nE-mail: ${email}\nDia: ${date}\nHorário: ${time}`);
 });

@@ -52,8 +52,8 @@ body {
 }
 
 .nav-links button {
-    background-color: rgba(209, 159, 104, 0.8);
-    color: black;
+    background-color: #d19f68cc;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -71,7 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding: 200px 20px;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@ body {
 }
 
 .hero .btn-cta {
-    background: rgba(209, 159, 104, 0.8);
+    background: #d19f68cc;
     padding: 12px 24px;
     color: black;
     font-size: 18px;
